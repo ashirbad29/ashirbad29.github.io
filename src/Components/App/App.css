@@ -1,8 +1,16 @@
+* {
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-kerning: auto;
+	box-sizing: border-box;
+}
 body {
 	min-height: 100vh;
-	box-sizing: border-box;
 	margin: 0;
 	width: 100%;
 	overflow-x: hidden;
 	font-family: 'Poppins', sans-serif;
+	background-color: #0c141f;
+	color: #f9f9f9;
 }

@@ -3,8 +3,11 @@ import './Home.css';
 
 const Home = () => {
 	return (
-		<div>
-			<h1>I am Home</h1>
+		<div className='home-container'>
+			<div className='header-text'>
+				<h1>Welcome to my portfolio!</h1>
+				<p>This is Ashirbad, A Web Developer</p>
+			</div>
 		</div>
 	);
 };
