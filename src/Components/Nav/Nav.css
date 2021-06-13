@@ -1,0 +1,28 @@
+nav > ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	list-style: none;
+}
+
+.nav-links {
+	margin: 12px;
+}
+
+.nav-links > .link {
+	text-decoration: none;
+	color: #f9f9f9;
+	border-bottom: 1px solid yellow;
+}
+
+/* Animation */
+.nav-links > .link {
+	transition: all 0.1s ease;
+}
+
+.link:hover {
+	border-bottom: solid 2px orange;
+}

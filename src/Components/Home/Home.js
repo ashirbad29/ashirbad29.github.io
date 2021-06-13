@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from '../Nav/Nav';
 import './Home.css';
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
 				<h1>Welcome to my portfolio!</h1>
 				<p>This is Ashirbad, A Web Developer</p>
 			</div>
+			<Nav />
 		</div>
 	);
 };
