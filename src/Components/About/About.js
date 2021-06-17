@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from '../Nav/Nav';
-import { Link } from 'react-router-dom';
+import FooterLink from '../FooterLink/FooterLink';
 import './About.css';
 
 const About = () => {
@@ -11,7 +11,7 @@ const About = () => {
 			<div className='about-content'>
 				<p>
 					Hi, I am Ashirbad, I love writing code to build things. I love all
-					things about Tech and Anime 😄.
+					things about Tech and Anime😄.
 				</p>
 
 				<p>
@@ -33,9 +33,11 @@ const About = () => {
 					too.
 				</p>
 
-				<p className='bottom-center-text'>
-					Check out my <Link to='/projects'>Projects💻</Link>
-				</p>
+				<FooterLink
+					phrase='Checkout my '
+					link='Projects!'
+					toAddress='/projects'
+				/>
 			</div>
 		</div>
 	);
