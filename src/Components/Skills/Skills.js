@@ -1,6 +1,7 @@
 import React from 'react';
 import FooterLink from '../FooterLink/FooterLink';
 import Nav from '../Nav/Nav';
+import SkillCard from './SkillCard';
 import { skillsList } from '../../assets/skillsData';
 import './Skills.css';
 
@@ -11,14 +12,16 @@ const Skills = () => {
 
 			<Nav />
 
-			<p>
+			<p className='align-center'>
 				Passionate about new technologies, I keep exploring stuffs, Here's the
 				tech stack i have worked with{' '}
 			</p>
 
 			<div className='skill-container'>
 				{skillsList.map((skill, idx) => {
-					return <img src={skill.iconUrl} alt='skill' key={idx} />;
+					return (
+						<SkillCard name={skill.skillName} url={skill.iconUrl} key={idx} />
+					);
 				})}
 			</div>
 
