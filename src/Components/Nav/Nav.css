@@ -26,3 +26,7 @@ nav > ul {
 .link:hover {
 	border-bottom: solid 2px orange;
 }
+
+.hide {
+	display: none;
+}
