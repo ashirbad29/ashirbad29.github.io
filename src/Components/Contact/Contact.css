@@ -1,0 +1,32 @@
+.section-container {
+	width: 90%;
+	max-width: 70ch;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.1rem;
+}
+
+.section-container > p {
+	width: 100%;
+}
+
+.mail-link {
+	margin: 0;
+	font-size: 1.2rem;
+}
+
+.mail-link > a {
+	text-decoration: none;
+	padding: none;
+	color: #000;
+	border-bottom: 2px solid orange;
+}
+
+.social-icons-container {
+	padding-top: 20px;
+}
+
+.social-icon {
+	display: inline-block;
+	margin: 0 20px;
+}
