@@ -12,7 +12,7 @@ import './Contact.css';
 
 const Contact = () => {
 	return (
-		<div className='section-container'>
+		<div className='section-container container'>
 			<h1 className='center-text'>Get in Touch</h1>
 			<Nav />
 

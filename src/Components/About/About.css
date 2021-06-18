@@ -1,4 +1,4 @@
-.section-container {
+.container {
 	width: 90%;
 	max-width: 80ch;
 	margin-left: auto;
@@ -6,9 +6,10 @@
 }
 
 .center-text {
-	height: 40px;
+	font-family: 'Rubik', sans-serif;
+	/* height: 40px; */
 	padding: 0;
-	border-bottom: 2px solid #6c63ff;
+	border-bottom: 3px solid #6c63ff;
 	text-align: center;
 	font-size: 2em;
 	font-weight: bold;
