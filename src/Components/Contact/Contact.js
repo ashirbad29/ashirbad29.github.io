@@ -26,7 +26,7 @@ const Contact = () => {
 				</a>
 			</p>
 			<p>
-				And if you'd like to <strike>stalk</strike> follow me on socila media
+				And if you'd like to <strike>stalk</strike> follow me on social media
 				and other websites on the internet, here are some buttons that leads to
 				my profiles.
 			</p>
